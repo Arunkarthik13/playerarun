@@ -4,7 +4,6 @@ int main() {
     string s;
     char t;
     int i;
-    cout<<"Enter the string"<<endl;
     cin>>s;
  for(i=0;s[i]!='\0';i=i+2)
     {
