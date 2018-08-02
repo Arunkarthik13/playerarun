@@ -3,7 +3,7 @@ int main()
 {
   int n,r,i,j,count;
   scanf("%d %d",&n,&r);
-  for(i=n;i<=r;i++)
+  for(i=n+1;i<r;i++)
   {
       count=0;
       for(j=2;j<i;j++)
